@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSE — Computer Science Event</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">I-Trends 2k25</div>
+      <nav class="site-nav">
+        <a href="#members">Members</a>
+        <a href="#competitions">Competitions</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="bg-pane left"></div>
+      <div class="bg-image"></div>
+      <div class="bg-pane right"></div>
+      <div class="blob blob-a"></div>
+      <div class="blob blob-b"></div>
+    </div>
+    <div class="hero-content container">
+      <div class="hero-copy">
+        <h1 id="hero-title"><span>Aditya</span><br />Degree College</h1>
+        <p class="subtitle">I-Trends 2k25</p>
+        <p class="lede">A sustainable statement for technology and design. Join us for talks, workshops, and competitions that shape tomorrow.</p>
+        <div class="hero-cta">
+          <a class="btn ghost" href="#competitions">See competitions</a>
+        </div>
+      </div>
+      <div class="hero-aside">
+        <div class="dots" role="presentation">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="about" id="about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="about-title">About Aditya Degree College</h2>
+      </div>
+      <p class="about-lede">Aditya Degree Colleges, established in 1998, stand as a hub of excellence where education meets career success. With innovative courses like Data Science, AI & Robotics, Forensic Science, Animation, and Digital Marketing, Aditya prepares students for the future. Guided by visionary leadership, the colleges ensure 100% placements, with many students securing multiple offers from top companies. True to its slogan, “Job is not a chance, it is a choice of an Aditya student.</p>
+      <div class="features">
+        <article class="feature" data-reveal>
+          <span class="icon" aria-hidden="true">🎓</span>
+          <h3>Education</h3>
+          <p>Industry-aligned curriculum, expert faculty, and labs that nurture real-world skills.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <span class="icon" aria-hidden="true">🤝</span>
+          <h3>Community</h3>
+          <p>Supportive culture with clubs, mentorship, and events that bring ideas to life.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <span class="icon" aria-hidden="true">🎯</span>
+          <h3>Goal</h3>
+          <p>Empower students to lead, innovate, and contribute to society with integrity.</p>
+        </article>
+        <article class="feature" data-reveal>
+          <span class="icon" aria-hidden="true">🏆</span>
+          <h3>Achievements</h3>
+          <p>Consistent university ranks, national hackathon wins, and strong placement records.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+ <section class="competitions" id="competitions" aria-labelledby="comp-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="comp-title">Competitions</h2>
+        <div class="subtext">
+          <p><strong>Guidelines:</strong></p>
+          <ol>
+            <p>1. One team can participate only in 1 competition</p>
+            <p>2. From a college 2 batches are allowed for a competition</p>
+            <p>3. The last date for registration is 7th October</p>
+            <p>4. No spot registrations are allowed</p>
+          </ol>
+        </div>
+      </div>
+
+      <div class="grid">
+        <!-- 10 cards -->
+        <article class="card">
+          <span class="icon" aria-hidden="true">📊</span>
+          <h3>Vision Pitch</h3>
+          <p class="desc">Vision Pitch is a presentation activity where participants select one of the given topics and prepare slides using any tool of their choice. The focus is on clear content, creative design, and impactful delivery of ideas.</p>
+          <div class="meta"><span class="pill">Duo</span>
+          <a class="btn primary cta" target="_blank" rel="noopener" href="https://forms.gle/sF7NKzfKDdQukesK7">Register</a>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">🧩</span>
+          <h3>Build & Beyond</h3>
+          <p class="desc">In this activity, teams of two will design and develop a model or working prototype based on the given themes—Generative AI, IoT, or Robotics. The focus is on innovation, teamwork, and practical application of concepts.</p>
+          <div class="meta"><span class="pill">Duo</span>
+          <a class="btn primary cta" target="_blank" rel="noopener" href="https://forms.gle/XG3kee81LbLy2QjW6">Register</a>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">⌨️</span>
+          <h3>Syntax Sprint</h3>
+          <p class="desc">Blind Coding is a coding challenge where participants write and run programs without viewing the screen, testing their logic, accuracy, and confidence in programming</p>
+          <div class="meta"><span class="pill">Solo</span>
+          <a class="btn primary cta" target="_blank" rel="noopener" href="https://forms.gle/gbq93DVfWDAPBnrC6">Register</a>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">🧠</span>
+          <h3>Riddle Rush</h3>
+          <p class="desc">A fun and challenging round with tricky puzzles and logical questions designed to test participant's reasoning, creativity, and out-of-the-box thinking</p>
+           <div class="meta"><span class="pill">Solo</span>
+          <a class="btn primary cta" target="_blank" rel="noopener" href="https://forms.gle/5bLdDPGsLT3L16Hz6">Register</a>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">❓</span>
+          <h3>Quiz Tech</h3>
+          <p class="desc">A knowledge-driven quiz conducted in three rounds, testing participants on core technical concepts, problem-solving ability, and quick thinking. Each round is designed to challenge and engage while bringing out the best technical minds.</p>
+           <div class="meta"><span class="pill">Squad</span>
+          <a class="btn primary cta" target="_blank" rel="noopener" href="https://forms.gle/hbUomAzw9ECRCtnW9">Register</a>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">🎨</span>
+          <h3>Interface UX</h3>
+          <p class="desc">In this event, participants are given a topic on the spot and limited time to design an app interface. The challenge highlights creativity, quick thinking, and building user-friendly designs that address real needs</p>
+          <div class="meta"><span class="pill">Duo</span>
+          <a class="btn primary cta" target="_blank" rel="noopener" href="https://forms.gle/pnXPRwb6XYxNcSpj6">Register</a>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="members" id="members" aria-label="Members">
+    <div class="container">
+      <div class="section-head">
+        <h2>Our Leadership</h2>
+        <div class="pager" aria-hidden="true"></div>
+      </div>
+    </div>
+    <div class="carousel" tabindex="0" aria-roledescription="carousel" aria-label="CSE Members">
+      <div class="track">
+        <!-- Flip panels with portraits -->
+        <div class="panel" style="--hue:10" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip">
+            <div class="front">
+              <img class="avatar" src="public/pic1.jpg" alt="Member portrait" />
+              <h3>Dr. N. Sesha Reddy</h3><p>Chairman</p>
+            </div>
+            <div class="back">
+              <img class="avatar-back" src="public/pic1.jpg" alt="Dr. N. Sesha Reddy" />
+              <p class="desc">Sri Nallamilli Sesha Reddy, Founder and Chairman of Aditya Academy, is a visionary educationist who transformed a single school into a renowned group of 60 institutions. His mission of holistic learning ‘from KG to PG’ continues to empower thousands of students with quality education and modern career-focused programs</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel" style="--hue:30" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip">
+            <div class="front">
+              <img class="avatar" src="public/pic3.jpg" alt="Member portrait" />
+              <h3>Dr. N. Suguna Reddy</h3><p>Aditya Secratory</p>
+            </div>
+            <div class="back">
+              <img class="avatar-back" src="public/pic3.jpg" alt="Dr. Suguna Reddy" />
+              <p class="desc">Dr. N. Suguna Reddy, Director of Aditya Educational Institutions, is a renowned educationist, philanthropist, and medical professional. Honored by the Governor of Andhra Pradesh for her humanitarian efforts, she also brings over 18 years of experience as an obstetrician and gynecologist and serves as a director in several investment and infrastructure companies</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel" style="--hue:50" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip">
+            <div class="front">
+              <img class="avatar" src="public/pic2.jpg" alt="Member portrait" />
+              <h3>Dr. B.E.V.L.Naidu</h3><p>Director</p>
+            </div>
+            <div class="back">
+              <img class="avatar-back" src="public/pic2.jpg" alt="Dr. B.E.V.L.Naidu" />
+              <p class="desc">Dr. B.E.V.L. Naidu is the Academic Director of Aditya Degree & P.G. Colleges, overseeing 34 institutions across Andhra Pradesh. With over 25 years in higher education, he is dedicated to fostering innovative learning and leadership among students</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel" style="--hue:50" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip">
+            <div class="front">
+              <img class="avatar" src="public/pic4.jpg" alt="Member portrait" />
+              <h3>P.Rama Krishna Reddy</h3><p>Manager</p>
+            </div>
+            <div class="back">
+              <img class="avatar-back" src="public/pic4.jpg" alt="Dr. B.E.V.L.Naidu" />
+              <p class="desc">The Manager ensures fairness and transparency in exams, admissions, and recruitment while addressing grievances promptly. They uphold ethical standards across academics, finance, and discipline, fostering integrity through awareness and training. The Manager also monitors operations, resolves issues effectively, and reports key findings to the authorities.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel" style="--hue:90" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip">
+            <div class="front">
+              <img class="avatar" src="public/principalsir.jpg" alt="Member portrait" />
+              <h3>N.H. Sathish Kumar</h3><p>Principal</p>
+            </div>
+            <div class="back">
+              <img class="avatar-back" src="public/principalsir.jpg" alt="T. Akhil" />
+              <p class="desc">Mr. N. H. Satish Kumar, Principal of Aditya Degree & P.G. College, is a visionary academic leader with a strong foundation in Computer Science. His dedication, discipline, and commitment to excellence continue to inspire both faculty and students towards holistic growth and success.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel" style="--hue:90" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip">
+            <div class="front">
+              <img class="avatar" src="public/vice-removebg-preview.png" alt="Member portrait" />
+              <h3>T. Akhil</h3><p>Vice Principal</p>
+            </div>
+            <div class="back">
+              <img class="avatar-back" src="public/vice-removebg-preview.png" alt="T. Akhil" />
+              <p class="desc">Mr. T. Akhil, Vice Principal of Aditya Degree & P.G. College, is a dynamic academic leader and Associate Professor in the Department of Computer Science. With his dedication, vision, and commitment to excellence, he plays a pivotal role in guiding students and faculty towards academic and professional success.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel" style="--hue:120" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip">
+            <div class="front">
+              <img class="avatar" src="public/bhav-removebg-preview.png" alt="Member portrait" />
+              <h3>K. Bhavana Sravanthi</h3><p>HOD of Computer Science</p>
+            </div>
+            <div class="back">
+              <img class="avatar-back" src="public/bhav-removebg-preview.png" alt="K. Bhavana Sravanthi" />
+              <p class="desc">Mrs. K. Bhavana Sravanthi, HOD of Computer Science, is an accomplished academician with 15 years of experience. With expertise in AI, ML, Data Science, and Cyber Security, she is dedicated to inspiring students and guiding them towards excellence.</p>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <button class="nav prev" aria-label="Previous">‹</button>
+      <button class="nav next" aria-label="Next">›</button>
+    </div>
+  </section>
+  <section class="chief-guest" id="chief-guest" aria-labelledby="chief-guest-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="chief-guest-title">Chief Guest</h2>
+      </div>
+      <div class="guest-content">
+        <div class="guest-media">
+          <img src="public/guest.jpg" alt="Chief Guest" />
+        </div>
+        <div class="guest-text">
+          <h3 class="guest-name">Dr. A. Gautami Latha</h3>
+          <p>Professor at Andhra University and a renowned academician with over two decades of experience in teaching and research. She has served as Head of Department at reputed institutions, contributed extensively to semantic mining, data analytics, and AI, and holds multiple patents and publications. Honored with awards including Jyesta Acharya and Uttama Adyapika, she continues to inspire through leadership, innovation, and a steadfast commitment to education.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ <section class="qr-section" id="social" aria-labelledby="qr-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 id="qr-title">Connect With Us</h2>
+      <p>Scan the QR codes to follow us on social media</p>
+    </div>
+    <div class="qr-grid">
+
+      <a href="https://www.instagram.com/__itrends__" target="_blank" class="qr-card">
+        <div class="qr-code">
+          <img src="public/insta.png" alt="Instagram QR Code" />
+        </div>
+        <h3>Instagram</h3>
+        <p>@__itrends__</p>
+      </a>
+
+      <a href="https://www.linkedin.com/in/itrends-aditya/" target="_blank" class="qr-card">
+        <div class="qr-code">
+          <img src="public/linkedin.jpg" alt="LinkedIn QR Code" />
+        </div>
+        <h3>LinkedIn</h3>
+        <p>@I TRENDS CLUB</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+  <section class="map" id="location" aria-labelledby="map-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="map-title">Location</h2>
+      </div>
+      <div class="map-wrap">
+        <iframe title="Aditya Degree College, Simhachalam Railway Station Rd, Nad Junction, Gopalapatnam, Visakhapatnam, AP 530027"
+          src="https://www.google.com/maps?q=Aditya%20Degree%20College%2C%20Simhachalam%20Railway%20Station%20Rd%2C%20Nad%20Junction%2C%20Gopalapatnam%2C%20Simhachalam%2C%20Visakhapatnam%2C%20Andhra%20Pradesh%20530027&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <p style="margin-top:12px"><a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=Aditya%20Degree%20College%2C%20Simhachalam%20Railway%20Station%20Rd%2C%20Nad%20Junction%2C%20Gopalapatnam%2C%20Simhachalam%2C%20Visakhapatnam%2C%20Andhra%20Pradesh%20530027">Get Directions</a></p>
+    </div>
+  </section>
+
+ 
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>I-Trends 2k25</h3>
+          <p>Aditya Degree College presents an exciting Computer Science Event featuring competitions, workshops, and networking opportunities.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#members">Leadership</a></li>
+            <li><a href="#competitions">Competitions</a></li>
+            <li><a href="#location">Location</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Faculty Coordinators</h4>
+          <ul class="contacts">
+            <li>
+              <span class="name">K. Venkatesh</span>
+              <a class="tel" href="tel:+917207084358">7207084358</a>
+            </li>
+            <li>
+              <span class="name">G. Venkatesh</span>
+              <a class="tel" href="tel:+919100257258">9100257258</a>
+            </li>
+            <li>
+              <span class="name">Srinu</span>
+              <a class="tel" href="tel:+919642522556">9642522556</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Student Coordinators</h4>
+          <ul class="contacts">
+            <li>
+              <span class="name">Gnaneswari</span>
+              <a class="tel" href="tel:+919182174120">9182174120</a>
+            </li>
+            <li>
+              <span class="name">Govidamma</span>
+              <a class="tel" href="tel:+918184851995">8184851995</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Event Organizers</h4>
+          <ul class="contacts">
+            <li>
+              <span class="name">K. Bhavana Sravanthi</span>
+              <a class="tel" href="tel:+919985074770">9985074770</a>
+            </li>
+            <li>
+              <span class="name">M. Radha</span>
+              <a class="tel" href="tel:+919440370181">9440370181</a>
+            </li>
+          
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 VoidWareLabs. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+
+
