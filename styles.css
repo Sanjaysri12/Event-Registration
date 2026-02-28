@@ -1,3 +1,7 @@
+body{
+  background-color: #AEB784;
+}
+
 /* Base */
 :root{
   --bg:#f8fbff; /* paper */
